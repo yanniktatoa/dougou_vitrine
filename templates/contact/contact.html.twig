@@ -1,0 +1,420 @@
+{% extends 'base_contact.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-icon">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="nav-inner">
+              <!-- Start Navbar -->
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="/">
+                  <img src="assets/images/fg3.png" alt="Logo" style="width: 200px; height: auto;"  />
+                </a>
+                <button
+                  class="navbar-toggler mobile-menu-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a
+                        href="/"
+                        class="active"
+                        aria-label="Toggle navigation"
+                        >Accueil</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="about" aria-label="Toggle navigation"
+                        >A Propos</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="pricing" aria-label="Toggle navigation"
+                        >Nos Tarifs</a
+                      >
+                    </li>
+                    <!--<li class="nav-item">
+                      <a
+                        class="dd-menu collapsed"
+                        href="javascript:void(0)"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#submenu-1-1"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >Pages</a
+                      >
+                      <ul class="sub-menu collapse" id="submenu-1-1">
+                        <li class="nav-item">
+                          <a href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="pricing.html">Nos Tarifs</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="signin.html">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="signup.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="reset-password.html">Reset Password</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="mail-success.html">Mail Success</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="404.html">404 Error</a>
+                        </li>
+                      </ul>
+                    </li> -->
+                    <!--<li class="nav-item">
+                      <a
+                        class="dd-menu collapsed"
+                        href="javascript:void(0)"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#submenu-1-2"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >Blog</a
+                      >
+                      <ul class="sub-menu collapse" id="submenu-1-2">
+                        <li class="nav-item">
+                          <a href="blog-grid.html">Blog Grid</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="blog-single.html">Blog Single</a>
+                        </li>
+                      </ul>
+                    </li>-->
+                    <li class="nav-item">
+                      <a href="contact" aria-label="Toggle navigation"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- navbar collapse -->
+                <div class="button home-btn">
+                  <a href="signup" class="btn">Ouvrir un compte gratuit</a>
+                </div>
+              </nav>
+              <!-- End Navbar -->
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 offset-lg-3 col-md-12 col-12">
+            <div class="breadcrumbs-content">
+              <h1 class="page-title">Contact</h1>
+              <ul class="breadcrumb-nav">
+                <li><a href="/">Accueil</a></li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <!-- Start Contact Area -->
+    <div class="contact-us section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="contact-widget-wrapper">
+              <div class="main-title">
+                <h2>Contactez Nous</h2>
+                <p>
+                  Besoin d'assistance ou de renseignements supplémentaires ?
+                  Contactez-nous dès maintenant.
+                </p>
+              </div>
+              <div class="contact-widget-block">
+                <h3 class="title">Appelez nous</h3>
+                <p>+228 91828224</p>
+              </div>
+              <div class="contact-widget-block">
+                <h3 class="title">Ecrivez nous</h3>
+                <p>dougoucontact@gmail.com/p></p>
+                <p>..........@mail.com</p>
+              </div>
+              <div class="contact-widget-block">
+                <h3 class="title">Notre adresse</h3>
+                <p>(Localisation)</p>
+                <p>...............</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h3 class="form-title">Laissez nous un message ici</h3>
+              <form class="form" method="post" action="assets/mail/mail.php">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <div class="form-group">
+                      <input
+                        name="name"
+                        type="text"
+                        placeholder="Nom*"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <div class="form-group">
+                      <input
+                        name="email"
+                        type="email"
+                        placeholder="Email*"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <div class="form-group">
+                      <input
+                        name="subject"
+                        type="text"
+                        placeholder="Sujet*"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <div class="form-group">
+                      <input
+                        name="phone"
+                        type="text"
+                        placeholder="Numero*"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <textarea
+                        placeholder="Message*"
+                        name="message"
+                        id="message-area"
+                        class="form-control"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="button">
+                      <button type="submit" class="btn">Envoyer</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Area -->
+
+    <!-- Start Google-map Area -->
+    <div class="map-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  width="100%"
+                  height="500"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Google-map Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer section">
+      <!-- Start Footer Top -->
+      <div class="footer-top">
+        <div class="container">
+          <div class="inner-content">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-12">
+                <!-- Single Widget -->
+                <div class="single-footer f-about">
+                  <div class="logo">
+                    <a href="/">
+                      <img src="assets/images/fg.png" alt="#" style="width: 200px; height: auto;" /> 
+                    </a>
+                  </div>
+                  <p>Découvrez nos réseaux sociaux pour rester connecté.</p>
+                  <h4 class="social-title">Suivez nous sur:</h4>
+                  <ul class="social">
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-facebook-filled"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-twitter-original"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-linkedin-original"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-pinterest"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-youtube"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End Single Widget -->
+              </div>
+              <div class="col-lg-2 col-md-6 col-12">
+                <!-- Single Widget -->
+                <div class="single-footer f-link">
+                  <h3>Support</h3>
+                  <ul>
+                    <li><a href="javascript:void(0)">Tarification</a></li>
+                    <li><a href="javascript:void(0)">A Propos</a></li>
+                    <li><a href="javascript:void(0)">Guides</a></li>
+                  </ul>
+                </div>
+                <!-- End Single Widget -->
+              </div>
+              <div class="col-lg-2 col-md-6 col-12">
+                <!-- Single Widget -->
+                <div class="single-footer f-link">
+                  <h3>Pays</h3>
+                  <ul>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><img
+                          src="assets/images/togo-svgrepo-com.svg"
+                          alt="#"
+                        />
+                        Togo</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- End Single Widget -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <!-- Single Widget -->
+                <div class="single-footer newsletter">
+                  <h3>S'abonner</h3>
+                  <p>
+                    S'abonner à notre newsletter pour avoir les dernières
+                    informations.
+                  </p>
+                  <form
+                    action="#"
+                    method="get"
+                    target="_blank"
+                    class="newsletter-form"
+                  >
+                    <input
+                      name="EMAIL"
+                      placeholder="Email"
+                      required="required"
+                      type="email"
+                    />
+                    <div class="button">
+                      <button class="sub-btn">
+                        <i class="lni lni-envelope"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <!-- End Single Widget -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ End Footer Top -->
+      <div class="copyright-area">
+        <div class="container">
+          <div class="inner-content">
+            <div class="row"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+      <i class="lni lni-chevron-up"></i>
+    </a>
+{% endblock %}
