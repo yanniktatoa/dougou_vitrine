@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/index.html.twig"
+to = "/index.html"
 status = 200
