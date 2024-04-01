@@ -1,4 +1,0 @@
-[[redirects]]
-from = "/*"
-to = "accueil/index.html.twig"
-status = 200
